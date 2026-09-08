@@ -26,13 +26,17 @@ This project is non-commercial and intended for research purposes.
 | Linux | x86_64, aarch64 |
 | FreeBSD | x86_64 |
 | Windows | x86_64, ARM64 |
-| macOS | DMG app bundle |
+| macOS | aarch64 app, x86_64 app, universal DMG app bundle |
 | iOS | arm64 device, arm64 simulator, x86_64 simulator |
 | Android | arm64-v8a, x86_64 |
 | WebAssembly | wasm32-unknown-unknown |
 
 ## Pre-built binaries
 * See preview releases on [GitHub Releases](https://github.com/xmoezzz/siglus_rs/releases)
+* macOS release artifacts now include:
+  * `siglus-macos-arm64` (`siglus-macos-arm64.app.tar.gz`)
+  * `siglus-macos-x86_64` (`siglus-macos-x86_64.app.tar.gz`)
+  * `siglus-macos-universal` (`Siglus-universal.dmg`)
 
 ## Documentation Availability
 * API documentation is available at [docs](https://xmoezzz.github.io/siglus_rs/)
